@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CodeAlphaFItnessTrackerApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/red</item>
+    </style>
+
+    <style name="Theme.CodeAlphaFItnessTrackerApp" parent="Base.Theme.CodeAlphaFItnessTrackerApp" />
+</resources>
