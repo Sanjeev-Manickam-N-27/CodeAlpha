@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="93dp">
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="TEST"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/correctAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textSize="25sp"
+            android:layout_marginVertical="255dp"/>
+
+
+        <EditText
+            android:id="@+id/answerQuizInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Answer here" />
+
+        <Button
+            android:id="@+id/nextButton"
+            style="@style/button"
+            android:layout_width="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="150dp"
+            android:layout_height="wrap_content"
+            android:text="Next" />
+
+
+
+        <Button
+            android:id="@+id/backButton"
+            style="@style/button"
+            android:layout_width="100dp"
+            android:layout_marginLeft="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="backButton"
+            android:text="Back" />
+
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
